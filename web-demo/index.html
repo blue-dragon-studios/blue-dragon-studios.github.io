@@ -3,24 +3,24 @@
 <head>
     <title>EAC360-3DVista</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" id="metaViewport" content="user-scalable=no, initial-scale=1, width=device-width, viewport-fit=cover" data-tdv-general-scale="0.5"/>
+    <meta name="viewport" id="metaViewport" content="user-scalable=no, initial-scale=1, width=device-width, viewport-fit=cover" data-tdv-general-scale="0.6"/>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <link rel="preload" href="locale/en.txt?v=1644491624173" as="fetch" crossorigin="anonymous"/>
-	<link rel="preload" href="script.js?v=1644491624173" as="script"/>
-	<link rel="preload" href="media/panorama_69B65224_7B61_BBB4_41C6_0700D1B75867_0/r/2/0_0.jpg?v=1644491624173" as="image"/>
-	<link rel="preload" href="media/panorama_69B65224_7B61_BBB4_41C6_0700D1B75867_0/l/2/0_0.jpg?v=1644491624173" as="image"/>
-	<link rel="preload" href="media/panorama_69B65224_7B61_BBB4_41C6_0700D1B75867_0/u/2/0_0.jpg?v=1644491624173" as="image"/>
-	<link rel="preload" href="media/panorama_69B65224_7B61_BBB4_41C6_0700D1B75867_0/d/2/0_0.jpg?v=1644491624173" as="image"/>
-	<link rel="preload" href="media/panorama_69B65224_7B61_BBB4_41C6_0700D1B75867_0/f/2/0_0.jpg?v=1644491624173" as="image"/>
-	<link rel="preload" href="media/panorama_69B65224_7B61_BBB4_41C6_0700D1B75867_0/b/2/0_0.jpg?v=1644491624173" as="image"/>
+    <link rel="preload" href="locale/en.txt?v=1644497138869" as="fetch" crossorigin="anonymous"/>
+	<link rel="preload" href="script.js?v=1644497138869" as="script"/>
+	<link rel="preload" href="media/panorama_69B65224_7B61_BBB4_41C6_0700D1B75867_0/r/2/0_0.jpg?v=1644497138869" as="image"/>
+	<link rel="preload" href="media/panorama_69B65224_7B61_BBB4_41C6_0700D1B75867_0/l/2/0_0.jpg?v=1644497138869" as="image"/>
+	<link rel="preload" href="media/panorama_69B65224_7B61_BBB4_41C6_0700D1B75867_0/u/2/0_0.jpg?v=1644497138869" as="image"/>
+	<link rel="preload" href="media/panorama_69B65224_7B61_BBB4_41C6_0700D1B75867_0/d/2/0_0.jpg?v=1644497138869" as="image"/>
+	<link rel="preload" href="media/panorama_69B65224_7B61_BBB4_41C6_0700D1B75867_0/f/2/0_0.jpg?v=1644497138869" as="image"/>
+	<link rel="preload" href="media/panorama_69B65224_7B61_BBB4_41C6_0700D1B75867_0/b/2/0_0.jpg?v=1644497138869" as="image"/>
 	<meta name="description" content="Emerging Analytics Center 360 Tour"/>
 	<meta name="theme-color" content="#000000"/>
-    <script src="lib/tdvplayer.js?v=1644491624173"></script>
-    <script src="script.js?v=1644491624173"></script>
+    <script src="lib/tdvplayer.js?v=1644497138869"></script>
+    <script src="script.js?v=1644497138869"></script>
     <script type="text/javascript">
         var tour;
-        var devicesUrl = {"general":"script_general.js?v=1644491624173","ipad":"script_general.js?v=1644491624173","mobile":"script_mobile.js?v=1644491624173"};
+        var devicesUrl = {"general":"script_general.js?v=1644497138869","mobile":{"portrait":"script_mobile.js?v=1644497138869","landscape":"script_general.js?v=1644497138869"},"ipad":"script_general.js?v=1644497138869"};
 
         (function()
         {
@@ -63,9 +63,9 @@
 
             var settings = new TDV.PlayerSettings();
             settings.set(TDV.PlayerSettings.CONTAINER, document.getElementById('viewer'));
-            settings.set(TDV.PlayerSettings.WEBVR_POLYFILL_URL, 'lib/WebVRPolyfill.js?v=1644491624173');
-            settings.set(TDV.PlayerSettings.HLS_URL, 'lib/Hls.js?v=1644491624173');
-            settings.set(TDV.PlayerSettings.QUERY_STRING_PARAMETERS, 'v=1644491624173');
+            settings.set(TDV.PlayerSettings.WEBVR_POLYFILL_URL, 'lib/WebVRPolyfill.js?v=1644497138869');
+            settings.set(TDV.PlayerSettings.HLS_URL, 'lib/Hls.js?v=1644497138869');
+            settings.set(TDV.PlayerSettings.QUERY_STRING_PARAMETERS, 'v=1644497138869');
 
             tour = new TDV.Tour(settings, devicesUrl);
             tour.bind(TDV.Tour.EVENT_TOUR_INITIALIZED, onVirtualTourInit);
@@ -310,7 +310,7 @@
         #viewer { z-index:1; }
         #preloadContainer { z-index:2; opacity:0; background-color:rgba(0,0,0,1); transition: opacity 0.5s; -webkit-transition: opacity 0.5s; -moz-transition: opacity 0.5s; -o-transition: opacity 0.5s;}
     </style>
-    <link rel="stylesheet" href="fonts.css?v=1644491624173">
+    <link rel="stylesheet" href="fonts.css?v=1644497138869">
 </head>
 <body>
     <div id="preloadContainer" class="fill-viewport"><div style="z-index: 4; position: absolute; background-image: url('loading/HTMLImage_009FC954_1712_3EE2_4196_09B2FB2FC69B.jpg'); background-size: contain; background-repeat: no-repeat; background-position: center center; overflow: hidden; left: 0%; top: 0%; width: 100.00%; height: 100.00%"></div><div style="z-index: 5; position: absolute; left: 0%; top: 52.39%; width: 100.00%; height: 10.00%"><div style="text-align:left; color:#000; "><DIV STYLE="text-align:center;font-size:2.549800796812749vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#777777;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:2.55vmin;font-family:'Arial Rounded MT Bold';"><B>Loading virtual tour...</B></SPAN></SPAN></DIV></div></div><div style="z-index: 6; position: absolute; left: 0%; bottom: 39.63%; width: 100.00%; height: 7.97%"><div style="text-align:left; color:#000; "><DIV STYLE="text-align:center;font-size:2.549800796812749vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#777777;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#0000ff;font-size:2.55vmin;font-family:'Arial Rounded MT Bold';">Loading virtual tour...</SPAN></SPAN></DIV></div></div></div>
